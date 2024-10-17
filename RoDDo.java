@@ -1,7 +1,7 @@
 package MyProject;
 
-import java.util.*;
 import java.io.*;
+import java.util.*;
 
 public class RoDDo {
     public static void main(String[] args) {
@@ -57,7 +57,7 @@ public class RoDDo {
                 Collections.sort(jadong);
                 System.out.println("자동 생성된 로또 번호 : " + jadong);
 
-            // 당첨인지 아닌지 여부 확인하기
+    
             } else if ( choice.equals("3") ) {
                 if ( !jadong.isEmpty() && !input.isEmpty() ) {
                     Set<Integer> match = new HashSet<>(jadong);
